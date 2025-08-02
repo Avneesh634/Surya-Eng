@@ -1,0 +1,132 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ANDROID/.gradle/caches/transforms-3/c0e2a45a9640a63570effe16849b28a4/transformed/appcompat-1.0.0/res/layout/abc_action_bar_title_item.xml" value="0.18206521739130435" />
+        <entry key="..\:/Users/ANDROID/.gradle/caches/transforms-3/c0e2a45a9640a63570effe16849b28a4/transformed/appcompat-1.0.0/res/layout/support_simple_spinner_dropdown_item.xml" value="0.14945652173913043" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/drawable/round_login_editbox.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout-land/activity_model.xml" value="0.109375" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout-land/activity_modeldes.xml" value="0.109375" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout-land/content_main.xml" value="0.109375" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout-v23/app_bar_main.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout-xlarge/activity_model.xml" value="0.1" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout-xlarge/content_main.xml" value="0.1" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/abc_action_bar_title_item.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/abc_action_bar_up_container.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/abc_action_menu_item_layout.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/abc_action_menu_layout.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/abc_action_mode_bar.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/abc_action_mode_close_item_material.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/abc_activity_chooser_view.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/abc_activity_chooser_view_list_item.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/abc_alert_dialog_button_bar_material.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/abc_alert_dialog_material.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/activity_complain_reg.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/activity_custo_registion.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/activity_customer_feedback.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/activity_en_job_update.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/activity_en_work_detail.xml" value="0.25" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/activity_eng_maps.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/activity_full_screen_image.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/activity_live.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/activity_login.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/activity_main.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/activity_maincrm.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/activity_maps.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/activity_massage.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/activity_model.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/activity_modeldes.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/activity_query.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/activity_show_image.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/activity_signature.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/activity_splash.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/activity_view_data.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/app_bar_main.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/confirm_upload.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/content_main.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/content_maincrm.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/dialog_signature.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/eng_call_details.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/expandable_child_layout.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/expandable_group_layout.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/fragment_en_call_detail.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/fragment_home_fragment_eng.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/fragment_image.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/fragment_signature.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/grid_item_layout.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/grid_item_layoutcrm.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/imagelist.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/job_description.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/labour_callected.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/list_group.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/list_header.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/massage_temp.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/model_item.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/nav_header_main.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/part_pending.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/row_adapter_layout.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/select_dialog_item_material.xml" value="0.13360507246376813" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/select_dialog_multichoice_material.xml" value="0.13360507246376813" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/select_dialog_singlechoice_material.xml" value="0.13360507246376813" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/sf_call_detail.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/support_simple_spinner_dropdown_item.xml" value="0.13360507246376813" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/layout/visit_detail.xml" value="0.10739614994934144" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/menu/activity_main_drawer.xml" value="0.1078125" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/menu/activity_main_drawercrm.xml" value="0.1078125" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/menu/main.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/menu/menu_image.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/ANDROID/Desktop/SuryaNew/SuryaNew/app/src/main/res/menu/menu_main.xml" value="0.22083333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="NullableNotNullManager">
+    <option name="myDefaultNullable" value="android.support.annotation.Nullable" />
+    <option name="myDefaultNotNull" value="androidx.annotation.NonNull" />
+    <option name="myNullables">
+      <value>
+        <list size="14">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.Nullable" />
+          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nullable" />
+          <item index="2" class="java.lang.String" itemvalue="javax.annotation.CheckForNull" />
+          <item index="3" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.Nullable" />
+          <item index="4" class="java.lang.String" itemvalue="android.support.annotation.Nullable" />
+          <item index="5" class="java.lang.String" itemvalue="androidx.annotation.Nullable" />
+          <item index="6" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNullable" />
+          <item index="7" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.Nullable" />
+          <item index="8" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableDecl" />
+          <item index="9" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableType" />
+          <item index="10" class="java.lang.String" itemvalue="com.android.annotations.Nullable" />
+          <item index="11" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.Nullable" />
+          <item index="12" class="java.lang.String" itemvalue="io.reactivex.annotations.Nullable" />
+          <item index="13" class="java.lang.String" itemvalue="io.reactivex.rxjava3.annotations.Nullable" />
+        </list>
+      </value>
+    </option>
+    <option name="myNotNulls">
+      <value>
+        <list size="14">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.NotNull" />
+          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nonnull" />
+          <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.NonNull" />
+          <item index="3" class="java.lang.String" itemvalue="android.support.annotation.NonNull" />
+          <item index="4" class="java.lang.String" itemvalue="androidx.annotation.NonNull" />
+          <item index="5" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNonNull" />
+          <item index="6" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.NonNull" />
+          <item index="7" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullDecl" />
+          <item index="8" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullType" />
+          <item index="9" class="java.lang.String" itemvalue="com.android.annotations.NonNull" />
+          <item index="10" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.NonNull" />
+          <item index="11" class="java.lang.String" itemvalue="io.reactivex.annotations.NonNull" />
+          <item index="12" class="java.lang.String" itemvalue="io.reactivex.rxjava3.annotations.NonNull" />
+          <item index="13" class="java.lang.String" itemvalue="lombok.NonNull" />
+        </list>
+      </value>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8 (3)" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

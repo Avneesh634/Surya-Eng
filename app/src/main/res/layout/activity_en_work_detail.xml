@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="4dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="0dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/theme_primary"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Product Detail"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <RelativeLayout
+                android:id="@+id/lpde"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="23dp"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:id="@+id/lprodct"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.4"
+                        android:text="Product :" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.6"
+                        android:background="@drawable/round_corner"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <Spinner
+                            android:id="@+id/es_product"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="0.3"
+                            android:background="@android:color/transparent"
+                            android:gravity="center"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:spinnerMode="dropdown" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="38dp"
+                            android:layout_centerVertical="true"
+                            android:layout_weight="1.7"
+                            android:contentDescription=""
+                            android:src="@drawable/wwpz" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lmnumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lprodct"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.4"
+                        android:text="Model Number :" />
+
+                    <LinearLayout
+                        android:id="@+id/spinnerlat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.6"
+                        android:background="@drawable/round_corner"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <Spinner
+                            android:id="@+id/es_model"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="0.3"
+                            android:background="@android:color/transparent"
+                            android:gravity="center"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:spinnerMode="dropdown" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="38dp"
+                            android:layout_centerVertical="true"
+                            android:layout_weight="1.7"
+                            android:contentDescription=""
+                            android:src="@drawable/wwpz" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lcategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lmnumber"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.4"
+                        android:text="Category :" />
+
+                    <TextView
+                        android:id="@+id/et_category"
+                        android:layout_width="match_parent"
+                        android:layout_height="38dp"
+                        android:layout_weight="0.6"
+                        android:background="@drawable/round_corner"
+                        android:gravity="center|left"
+                        android:text="Category" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lsnumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lcategory"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.4"
+                        android:text="Serial Number :" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.6"
+                        android:orientation="horizontal"
+                        android:weightSum="2.4">
+
+                        <EditText
+                            android:id="@+id/ee_snumber"
+                            android:layout_width="0dp"
+                            android:layout_height="38dp"
+                            android:layout_weight="1.6"
+                            android:background="@drawable/round_corner"
+                            android:hint="No Serial Number" />
+
+                        <ImageView
+                            android:id="@+id/image_scan"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="0.4"
+                            android:src="@drawable/ic_baseline_qr_code_scanner_24" />
+
+                        <ImageView
+                            android:id="@+id/image_reset"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="0.4"
+                            android:src="@drawable/ic_baseline_refresh_24" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ldop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lsnumber"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.4"
+                        android:text="DOP :" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/round_corner"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:id="@+id/ee_dop"
+                            android:layout_width="match_parent"
+                            android:layout_height="38dp"
+                            android:layout_weight="0.2"
+                            android:gravity="center"
+                            android:inputType="date"
+                            android:maxLines="1"
+                            android:textSize="25dp" />
+
+                        <ImageButton
+                            android:id="@+id/ee_dopicon"
+                            android:layout_width="match_parent"
+                            android:layout_height="38dp"
+                            android:layout_gravity="right"
+                            android:layout_weight="0.8"
+                            android:background="#00000000"
+                            android:src="@drawable/calendar" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lctype"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ldop"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.4"
+                        android:text="Call Type :" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.6"
+                        android:background="@drawable/round_corner"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <Spinner
+                            android:id="@+id/es_calltype"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="0.3"
+                            android:background="@android:color/transparent"
+                            android:gravity="center"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:spinnerMode="dropdown" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="38dp"
+                            android:layout_centerVertical="true"
+                            android:layout_weight="1.7"
+                            android:contentDescription=""
+                            android:src="@drawable/wwpz" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lccity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lctype"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.4"
+                        android:text="Warranty Status :" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.6"
+                        android:background="@drawable/round_corner"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <Spinner
+                            android:id="@+id/es_warranty"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="0.3"
+                            android:background="@android:color/transparent"
+                            android:gravity="center"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:spinnerMode="dropdown" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="38dp"
+                            android:layout_centerVertical="true"
+                            android:layout_weight="1.7"
+                            android:contentDescription=""
+                            android:src="@drawable/wwpz" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/labourlayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lccity"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.4"
+                                android:text="Service Charge:" />
+
+                            <EditText
+                                android:id="@+id/et_servicechar"
+                                android:layout_width="match_parent"
+                                android:layout_height="38dp"
+                                android:layout_weight="0.6"
+                                android:background="@drawable/round_corner"
+                                android:inputType="number"
+                                android:text="" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/lrepairtype"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.4"
+                                android:text="Part Charges:" />
+
+                            <EditText
+                                android:id="@+id/et_part"
+                                android:layout_width="match_parent"
+                                android:layout_height="38dp"
+                                android:layout_weight="0.6"
+                                android:background="@drawable/round_corner"
+                                android:inputType="number"
+                                android:text="" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ltravel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.4"
+                                android:text="  Transport Charges:" />
+
+                            <EditText
+                                android:id="@+id/et_transport"
+                                android:layout_width="match_parent"
+                                android:layout_height="38dp"
+                                android:layout_weight="0.6"
+                                android:background="@drawable/round_corner"
+                                android:inputType="number"
+                                android:text="" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/lother"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.4"
+                                android:text="GST 18%:" />
+
+                            <EditText
+                                android:id="@+id/et_gst"
+                                android:layout_width="match_parent"
+                                android:layout_height="38dp"
+                                android:layout_weight="0.6"
+                                android:background="@drawable/round_corner"
+                                android:clickable="false"
+                                android:editable="false" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ltotal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.4"
+                                android:text=" Net Total :" />
+
+                            <EditText
+                                android:id="@+id/et_nettotal"
+                                android:layout_width="match_parent"
+                                android:layout_height="38dp"
+                                android:layout_weight="0.6"
+                                android:background="@drawable/round_corner"
+                                android:clickable="false"
+                                android:editable="false" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ldist"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lccity"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.4"
+                        android:text="Pro. Date:" />
+
+                    <EditText
+                        android:id="@+id/ee_promissdate"
+                        android:layout_width="match_parent"
+                        android:layout_height="38dp"
+                        android:layout_weight="0.6"
+                        android:background="@drawable/round_corner"
+                        android:hint="Promise Date" />
+                </LinearLayout>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="4dp">
+
+            <include layout="@layout/job_description" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="4dp">
+
+            <include layout="@layout/visit_detail" />
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/b_cancel"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/allotbutton"
+                android:text="@string/hint_cancel"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/b_Save"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/allotbutton"
+                android:text="@string/hint_save"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

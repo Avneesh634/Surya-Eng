@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:id="@+id/g2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_complain"
+            android:icon="@drawable/ic_recent_actors_black_24dp"
+            android:title="Complaint" />
+    </group>
+    <group
+        android:id="@+id/g3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_query"
+            android:icon="@drawable/ic_question_answer_black_24dp"
+            android:title="Query" />
+    </group>
+    <group
+        android:id="@+id/g4"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Download"
+            android:icon="@drawable/ic_file_download_black_24dp"
+            android:title="Download Brochure" />
+    </group>
+    <group
+        android:id="@+id/g5"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Exit" />
+    </group>
+    <group
+        android:id="@+id/g6"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_image_control_point"
+            android:title="My IMEI/Device Id" />
+        <item
+            android:id="@+id/nav_imeitext"
+            android:title="Click here" />
+    </group>
+</menu>

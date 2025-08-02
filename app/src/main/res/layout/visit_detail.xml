@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="0dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/theme_primary"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Visit Detail"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/lStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.4"
+                android:text="Status" />
+
+            <Spinner
+                android:id="@+id/s_status"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_weight="0.6"
+                android:background="@drawable/round_corner" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linewaterheater"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/lininstallationfloor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.4"
+                    android:text="Installation Floor" />
+
+                <EditText
+                    android:id="@+id/et_installationfloor"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_weight="0.6"
+                    android:background="@drawable/round_corner"
+                    android:hint="Installation Floor" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linwaterhardness"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.4"
+                    android:text="Water Hardness" />
+
+                <EditText
+                    android:id="@+id/et_waterHardness"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_weight="0.6"
+                    android:background="@drawable/round_corner"
+                    android:hint="Water Hardness" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linvoltage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.4"
+                    android:text="Voltage" />
+
+                <EditText
+                    android:id="@+id/et_voltage"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_weight="0.6"
+                    android:background="@drawable/round_corner"
+                    android:hint="Voltage" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linwatertank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.4"
+                    android:text="Water Tank" />
+
+                <EditText
+                    android:id="@+id/et_watertank"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_weight="0.6"
+                    android:background="@drawable/round_corner"
+                    android:hint="Water Tank" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnettotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.4"
+                android:text="Remark" />
+
+            <EditText
+                android:id="@+id/e_remark"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_weight="0.6"
+                android:background="@drawable/round_corner"
+                android:hint="Remark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnepin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.4"
+                android:text="Happy Code" />
+
+            <EditText
+                android:id="@+id/e_pin"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_weight="0.6"
+                android:background="@drawable/round_corner"
+                android:hint="Happy code"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linbillpoto"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_weight="8"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_menu_camera"
+                android:foregroundGravity="center" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_weight="4"
+                android:fontFamily="@font/montslight"
+                android:text="Bill /Warranty Card Photo"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11sdp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imagebillphoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_baseline_check_circle_outline_24"
+                android:foregroundGravity="center"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linmachinephoto"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_weight="8"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_menu_camera"
+                android:foregroundGravity="center" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_weight="4"
+                android:fontFamily="@font/montslight"
+                android:text="Machine Photo"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11sdp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imagemachine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_baseline_check_circle_outline_24"
+                android:foregroundGravity="center"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linserialphoto"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_weight="8"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_menu_camera"
+                android:foregroundGravity="center" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_weight="4"
+                android:fontFamily="@font/montslight"
+                android:text="Serial Number Photo"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11sdp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageserial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_baseline_check_circle_outline_24"
+                android:foregroundGravity="center"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linsignature"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_weight="8"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_baseline_assignment_24"
+                android:foregroundGravity="center" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_weight="4"
+                android:fontFamily="@font/montslight"
+                android:text="Customer Signature"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11sdp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imagesignature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_baseline_check_circle_outline_24"
+                android:foregroundGravity="center"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

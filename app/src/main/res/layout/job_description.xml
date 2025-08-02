@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="gone">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="0dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/theme_primary"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Job Done"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/lcpro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.4"
+                android:text="Job Done :" />
+
+            <EditText
+                android:id="@+id/e_jobdone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:background="@drawable/round_corner"
+                android:hint="Job Done" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lresion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.4"
+                android:text="Symptom :" />
+
+            <Spinner
+                android:id="@+id/s_symptom"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_weight="0.6"
+                android:background="@drawable/round_corner"
+                android:entries="@array/USERMenu1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.4"
+                android:text="Cause :" />
+
+            <Spinner
+                android:id="@+id/s_cause"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_weight="0.6"
+                android:background="@drawable/round_corner"
+                android:entries="@array/USERMenu1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.4"
+                android:text="Analysis :" />
+
+            <Spinner
+                android:id="@+id/s_analysis"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_weight="0.6"
+                android:background="@drawable/round_corner"
+                android:entries="@array/USERMenu1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lrepairtype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.4"
+                android:text="Repair Type:" />
+
+            <Spinner
+                android:id="@+id/s_repairtype"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_weight="0.6"
+                android:background="@drawable/round_corner"
+                android:entries="@array/USERMenu1" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,279 @@
+<resources>
+    <string name="app_name">Surya</string>
+    <string name="address">Address :</string>
+    <string name="city">City :</string>
+    <string name="state">State :</string>
+    <string name="complain_by">Complaint By :</string>
+    <string name="product">Product :</string>
+    <string name="model_no">Model No. :                         </string>
+    <string name="problem">Complaint Description :</string>
+    <string name="save_txt">Save</string>
+    <string name="back_txt">Back</string>
+    <string name="view_txt">View</string>
+    <string name="title_txt">Complain Details</string>
+    <string name="view_title_txt">All India Live Status </string>
+    <string name="number_hint">Enter number</string>
+    <string name="text_hint">Enter text</string>
+    <string name="open_call">Open Call :</string>
+    <string name="reOpen_call">ReOpen Call :</string>
+    <string name="pending_call">Pending Call :</string>
+    <string name="part_pending_call">Part Pending Call :</string>
+    <string name="pending"> Pending :</string>
+    <string name="replacement"> Replacement :</string>
+    <string name="others"> Others :</string>
+    <string name="wr"> WR :</string>
+
+    <string-array name="title_reg">
+        <item>Please select</item>
+
+    </string-array>
+
+    <string-array name="complain_by">
+        <item>Please select</item>
+        <item>Customer</item>
+        <item>Dealer</item>
+        <item>ASC</item>
+        <item>Branch</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="title">
+        <item>Please select</item>
+        <item>Mr.</item>
+        <item>Ms.</item>
+    </string-array>
+    <!--  raw Data  -->
+
+    <string name="raw_user_name">Sonendra</string>
+    <string name="raw_mobile_no">123456</string>
+    <string name="raw_address">Noida</string>
+    <string name="raw_locality">Sec-15 Noida</string>
+    <string name="raw_city">Noida</string>
+    <string name="raw_pin_code">201301</string>
+    <string name="raw_model_no">TL2015AB</string>
+    <string name="raw_msg">Thanks for feeback. Your complain number is A298844.</string>
+    <string name="complain_details">Complain Details</string>
+    <string name="cancel">Cancel</string>
+    <string name="complain_registration">Complain Registration</string>
+    <string name="log_in">Log In</string>
+    <string name="log_in1">Log In</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="textview">TextView</string>
+    <string name="user_name1">User name</string>
+    <string name="view"> <u>Live Status.?</u></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="user_name">ADMIN</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="s">          </string>
+    <string name="hint_cancel">Cancel</string>
+    <string name="hint_clear">Clear</string>
+    <string name="hint_save">Save</string>
+
+    <string-array name="ADMIN">
+        <item>Call Distribution</item>
+        <item>Search</item>
+        <item>Status</item>
+    </string-array>
+
+
+    <string-array name="USER">
+        <item>Menu1 For USER</item>
+        <item>Menu2 For USER</item>
+        <item>Menu3 For USER</item>
+        <item>Menu4 For USER</item>
+        <item>Menu5 For USER</item>
+        <item>Menu6 For USER</item>
+        <item>Menu7 For USER</item>
+        <item>Menu8 For USER</item>
+        <item>Menu9 For USER</item>
+    </string-array>
+
+    <string-array name="Home">
+        <item>Home</item>
+    </string-array>
+    <string-array name="Search">
+        <item>Mobile</item>
+        <item>Complain</item>
+    </string-array>
+
+    <string-array name="Call_Distribution">
+        <item>Branch</item>
+        <item>ASF</item>
+    </string-array>
+    <string-array name="Today_Status">
+        <item>Today Status</item>
+    </string-array>
+
+    <string-array name="USERMenu1">
+        <item>Sub Menu1 for USERMenu1</item>
+        <item>Sub Menu2 for USERMenu1</item>
+        <item>Sub Menu3 for USERMenu1</item>
+        <item>Sub Menu4 for USERMenu1</item>
+        <item>Sub Menu5 for USERMenu1</item>
+        <item>Sub Menu6 for USERMenu1</item>
+        <item>Sub Menu7 for USERMenu1</item>
+        <item>Sub Menu8 for USERMenu1</item>
+        <item>Sub Menu9 for USERMenu1</item>
+    </string-array>
+
+    <string-array name="USERMenu2">
+        <item>Sub Menu1 for USERMenu2</item>
+        <item>Sub Menu2 for USERMenu2</item>
+        <item>Sub Menu3 for USERMenu2</item>
+        <item>Sub Menu4 for USERMenu2</item>
+        <item>Sub Menu5 for USERMenu2</item>
+        <item>Sub Menu6 for USERMenu2</item>
+        <item>Sub Menu7 for USERMenu2</item>
+        <item>Sub Menu8 for USERMenu2</item>
+        <item>Sub Menu9 for USERMenu2</item>
+    </string-array>
+    <string-array name="USERMenu3">
+        <item>Sub Menu1 for USERMenu3</item>
+        <item>Sub Menu2 for USERMenu3</item>
+        <item>Sub Menu3 for USERMenu3</item>
+        <item>Sub Menu4 for USERMenu3</item>
+        <item>Sub Menu5 for USERMenu3</item>
+        <item>Sub Menu6 for USERMenu3</item>
+        <item>Sub Menu7 for USERMenu3</item>
+        <item>Sub Menu8 for USERMenu3</item>
+        <item>Sub Menu9 for USERMenu3</item>
+    </string-array>
+    <string-array name="USERMenu4">
+        <item>Sub Menu1 for USERMenu4</item>
+        <item>Sub Menu2 for USERMenu4</item>
+        <item>Sub Menu3 for USERMenu4</item>
+        <item>Sub Menu4 for USERMenu4</item>
+        <item>Sub Menu5 for USERMenu4</item>
+        <item>Sub Menu6 for USERMenu4</item>
+        <item>Sub Menu7 for USERMenu4</item>
+        <item>Sub Menu8 for USERMenu4</item>
+        <item>Sub Menu9 for USERMenu4</item>
+    </string-array>
+    <string-array name="USERMenu5">
+        <item>Sub Menu1 for USERMenu5</item>
+        <item>Sub Menu2 for USERMenu5</item>
+        <item>Sub Menu3 for USERMenu5</item>
+        <item>Sub Menu4 for USERMenu5</item>
+        <item>Sub Menu5 for USERMenu5</item>
+        <item>Sub Menu6 for USERMenu5</item>
+        <item>Sub Menu7 for USERMenu5</item>
+        <item>Sub Menu8 for USERMenu5</item>
+        <item>Sub Menu9 for USERMenu5</item>
+    </string-array>
+    <string-array name="USERMenu6">
+        <item>Sub Menu1 for USERMenu6</item>
+        <item>Sub Menu2 for USERMenu6</item>
+        <item>Sub Menu3 for USERMenu6</item>
+        <item>Sub Menu4 for USERMenu6</item>
+        <item>Sub Menu5 for USERMenu6</item>
+        <item>Sub Menu6 for USERMenu6</item>
+        <item>Sub Menu7 for USERMenu6</item>
+        <item>Sub Menu8 for USERMenu6</item>
+        <item>Sub Menu9 for USERMenu6</item>
+    </string-array>
+    <string-array name="USERMenu7">
+        <item>Sub Menu1 for USERMenu7</item>
+        <item>Sub Menu2 for USERMenu7</item>
+        <item>Sub Menu3 for USERMenu7</item>
+        <item>Sub Menu4 for USERMenu7</item>
+        <item>Sub Menu5 for USERMenu7</item>
+        <item>Sub Menu6 for USERMenu7</item>
+        <item>Sub Menu7 for USERMenu7</item>
+        <item>Sub Menu8 for USERMenu7</item>
+        <item>Sub Menu9 for USERMenu7</item>
+    </string-array>
+    <string-array name="USERMenu8">
+        <item>Sub Menu1 for USERMenu8</item>
+        <item>Sub Menu2 for USERMenu8</item>
+        <item>Sub Menu3 for USERMenu8</item>
+        <item>Sub Menu4 for USERMenu8</item>
+        <item>Sub Menu5 for USERMenu8</item>
+        <item>Sub Menu6 for USERMenu8</item>
+        <item>Sub Menu7 for USERMenu8</item>
+        <item>Sub Menu8 for USERMenu8</item>
+        <item>Sub Menu9 for USERMenu8</item>
+    </string-array>
+    <string-array name="USERMenu9">
+        <item>Sub Menu1 for USERMenu9</item>
+        <item>Sub Menu2 for USERMenu9</item>
+        <item>Sub Menu3 for USERMenu9</item>
+        <item>Sub Menu4 for USERMenu9</item>
+        <item>Sub Menu5 for USERMenu9</item>
+        <item>Sub Menu6 for USERMenu9</item>
+        <item>Sub Menu7 for USERMenu9</item>
+        <item>Sub Menu8 for USERMenu9</item>
+        <item>Sub Menu9 for USERMenu9</item>
+    </string-array>
+
+    <string-array name="login_by">
+        <item>Please select</item>
+        <item>User</item>
+        <item>Admin</item>
+        <item>HO</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="movie_title">movie title</string>
+    <string name="action_movies">Action</string>
+    <string name="musical_movies">Musical</string>
+    <string name="drama_movies">Drama</string>
+    <string name="comedy_movies">Comedy</string>
+    <string name="thriller_movies">Thriller</string>
+    <string name="movie_genre">genre</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">User ID</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in"> Login </string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This User ID is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This Mobile is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="hint_search">Search</string>
+    <string name="city_name">City Name</string>
+    <string name="cus_address1">Cus. Address1</string>
+    <string name="cus_name">Cus. Name</string>
+    <string name="dealer_mob_no">Dealer Mob No.:</string>
+    <string name="dealer_mobile">Dealer Mobile</string>
+    <string name="dealer_name">Dealer Name</string>
+    <string name="job_sheet_number">Job Sheet Number</string>
+    <string name="landmark">LandMark</string>
+    <string name="locality">Locality:</string>
+    <string name="mobile_no">Mobile No.</string>
+    <string name="name">Name:</string>
+    <string name="pin_code">Pin Code</string>
+    <string name="std_code">STD Code</string>
+    <string name="telephone">Telephone</string>
+    <string name="hint_sign">Get Signature</string>
+    <string name="hint_pic">Get Image</string>
+    <string name="Upload_Signature">Upload Signature</string>
+    <string name="Upload_Image">Upload All Image</string>
+    <string name="show_sign">Show Signature</string>
+    <string name="dialog_title">SIGN HERE</string>
+    <string name="description">Description</string>
+    <string name="expanse">Expanse</string>
+    <string name="travel_distance">Travel Distance</string>
+    <string name="allot_call">ALLOT CALL</string>
+    <string name="complaint_description">Complaint Description</string>
+    <string name="customer_detail">Customer Detail</string>
+    <string name="product_detail">Product Detail</string>
+    <string name="title_activity_eng_maps">Map</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>

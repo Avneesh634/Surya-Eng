@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/llabour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:text="Labour" />
+
+        <EditText
+            android:id="@+id/labour"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_weight="0.8"
+            android:background="@drawable/round_corner"
+            android:focusable="true"
+            android:hint="Labour" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ltrancharge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:text="Transport Charge" />
+
+        <EditText
+            android:id="@+id/trancharge"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_weight="0.8"
+            android:background="@drawable/round_corner"
+            android:hint="Transport Charge" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ltrabcharge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:text="Travel Charges" />
+
+        <EditText
+            android:id="@+id/trabcharge"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_weight="0.8"
+            android:background="@drawable/round_corner"
+            android:hint="Travel Charges" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lother"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:text="Other" />
+
+        <EditText
+            android:id="@+id/other"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_weight="0.8"
+            android:background="@drawable/round_corner"
+            android:hint="Other" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnettotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:text="Net Total" />
+
+        <EditText
+            android:id="@+id/nettotal"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_weight="0.8"
+            android:background="@drawable/round_corner"
+            android:hint="Net Total" />
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <TableLayout
+            android:id="@+id/table_labour"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/nameslay"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp" />
+    </HorizontalScrollView>
+</LinearLayout>
