@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SuryaNew.iml" filepath="$PROJECT_DIR$/.idea/modules/SuryaNew.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SuryaNew.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SuryaNew.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SuryaNew.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SuryaNew.app.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SuryaNew.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SuryaNew.app.main.iml" />
